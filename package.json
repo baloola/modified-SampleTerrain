@@ -1,30 +1,62 @@
 {
-  "name": "sampleterrain",
-  "version": "0.1.5",
+  "_from": "sampleterrain",
+  "_id": "sampleterrain@0.1.5",
+  "_inBundle": false,
+  "_integrity": "sha1-7jKvxWGoV14LFbkXB8wp4h26QC8=",
+  "_location": "/sampleterrain",
+  "_phantomChildren": {
+    "requirejs": "2.3.5"
+  },
+  "_requested": {
+    "type": "tag",
+    "registry": true,
+    "raw": "sampleterrain",
+    "name": "sampleterrain",
+    "escapedName": "sampleterrain",
+    "rawSpec": "",
+    "saveSpec": null,
+    "fetchSpec": "latest"
+  },
+  "_requiredBy": [
+    "#USER",
+    "/"
+  ],
+  "_resolved": "https://registry.npmjs.org/sampleterrain/-/sampleterrain-0.1.5.tgz",
+  "_shasum": "ee32afc561a8575e0b15b91707cc29e21dba402f",
+  "_spec": "sampleterrain",
+  "_where": "/home/baloola/Desktop/try",
+  "author": {
+    "name": "Ricardo Morin"
+  },
+  "bugs": {
+    "url": "https://github.com/jimmyangel/sampleterrain/issues"
+  },
+  "bundleDependencies": false,
+  "dependencies": {
+    "cesium": "git+https://github.com/jimmyangel/cesium.git#lhxr-build"
+  },
+  "deprecated": false,
   "description": "sampleterrain",
-  "main": "index.js",
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/jimmyangel/sampleterrain.git"
+  "devDependencies": {
+    "jasmine-node": "^1.14.3",
+    "jshint": "^2.9.3"
   },
-  "scripts": {
-    "test": "jasmine-node spec"
-  },
+  "homepage": "https://github.com/jimmyangel/sampleterrain#readme",
   "keywords": [
     "geojson",
     "cesium",
     "terrain",
     "elevation"
   ],
-  "author": "Ricardo Morin",
   "license": "MIT",
-  "dependencies": {
-    "cesium": "git+https://github.com/jimmyangel/cesium.git#lhxr-build",
-    "cli": "^1.0.1",
-    "traverse": "^0.6.6"
+  "main": "index.js",
+  "name": "sampleterrain",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jimmyangel/sampleterrain.git"
   },
-  "devDependencies": {
-    "jshint": "^2.9.3",
-    "jasmine-node": "^1.14.3"
-  }
+  "scripts": {
+    "test": "jasmine-node spec"
+  },
+  "version": "0.1.5"
 }
